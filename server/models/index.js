@@ -11,3 +11,4 @@ mongoose.connect("mongodb://localhost/Chap-app", {
 
 
 module.exports.User = require('./User');
+module.exports.Message = require('./Message');
